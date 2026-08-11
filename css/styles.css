@@ -463,6 +463,13 @@ section { padding: 90px 0; position: relative; z-index: 1; }
 .founding-banner strong {
   color: var(--accent);
 }
+.founding-slots {
+  display: block;
+  margin-top: 6px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dim);
+}
 .price-card .desc {
   color: var(--text-muted);
   font-size: 14px;
