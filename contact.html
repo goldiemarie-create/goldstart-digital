@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Loopwork Digital</title>
+<meta name="description" content="Tell Loopwork Digital about your web design, development, or AI automation project.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="logo"><span class="logo-mark">L</span> LOOPWORK</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-secondary btn-sm">Get a Quote</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Let's talk</span>
+      <h1>Tell us about your <span class="gradient-text">project</span></h1>
+      <p>Fill out the form and we'll get back to you within one business day.</p>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="grid contact-grid">
+
+        <div class="contact-info reveal">
+          <div class="contact-info-item">
+            <div class="card-icon">✉</div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:hello@loopworkdigital.com">hello@loopworkdigital.com</a></p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="card-icon">◷</div>
+            <div>
+              <h4>Response time</h4>
+              <p>Within 1 business day, usually faster.</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="card-icon">◆</div>
+            <div>
+              <h4>Free discovery call</h4>
+              <p>20 minutes, no pressure, just figuring out if we're a fit.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <form id="contact-form">
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+              </div>
+              <div class="form-field">
+                <label for="project-type">Project type</label>
+                <select id="project-type" name="project-type" required>
+                  <option value="" disabled selected>Select one</option>
+                  <option value="web-design">Web Design</option>
+                  <option value="web-development">Web Development</option>
+                  <option value="ai-automation">AI Automation</option>
+                  <option value="all-three">All of the above</option>
+                  <option value="not-sure">Not sure yet</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="budget">Estimated budget</label>
+                <select id="budget" name="budget">
+                  <option value="" disabled selected>Select a range</option>
+                  <option value="under-2k">Under $2,000</option>
+                  <option value="2k-5k">$2,000 – $5,000</option>
+                  <option value="5k-15k">$5,000 – $15,000</option>
+                  <option value="15k-plus">$15,000+</option>
+                  <option value="not-sure">Not sure yet</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="referred-by">Referred by (optional)</label>
+                <input type="text" id="referred-by" name="referred-by" placeholder="Who sent you our way?">
+              </div>
+              <div class="form-field full">
+                <label for="message">Tell us about your project</label>
+                <textarea id="message" name="message" placeholder="What are you trying to build, and what's the timeline?" required></textarea>
+              </div>
+            </div>
+            <input type="hidden" name="_subject" value="New lead from Loopwork Digital website">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit" class="btn btn-primary btn-block">Send message</button>
+            <p class="form-note">
+              Submissions are delivered straight to our inbox via <a href="https://formsubmit.co" style="color: var(--accent); text-decoration: underline;">FormSubmit</a>. No server code required.
+            </p>
+            <div class="form-success" id="form-success"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="logo-mark">L</span> LOOPWORK</a>
+        <p>A studio for web design, development, and AI automation. We help small teams look sharp online and run leaner behind the scenes.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Site</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html">Web Design</a></li>
+          <li><a href="services.html">Web Development</a></li>
+          <li><a href="services.html">AI Automation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:hello@loopworkdigital.com">hello@loopworkdigital.com</a></li>
+          <li><a href="contact.html">Book a call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Loopwork Digital. All rights reserved.</span>
+      <span>Placeholder brand. Swap name & copy before launch.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
