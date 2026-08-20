@@ -128,16 +128,10 @@ p { margin: 0; }
 }
 
 .logo-mark {
-  width: 28px;
-  height: 28px;
-  border-radius: 8px;
-  background: var(--accent-gradient);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: #08090d;
-  font-weight: 800;
-  font-size: 14px;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  display: inline-block;
 }
 
 .nav-links {
